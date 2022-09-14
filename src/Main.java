@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bibliotek {
+public class Main {
     public static void main(String[] args) throws Exception {
         try (Scanner userInput = new Scanner(System.in)) {
             while (true) {
@@ -9,6 +9,8 @@ public class Bibliotek {
                     if (userInput.hasNextInt()) {
                         switch (userInput.nextInt()) {
                             case 1:
+                                System.out.println();
+
 
                                 break;
                             case 2:

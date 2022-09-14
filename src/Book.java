@@ -22,6 +22,14 @@ public class Book {
         this.status = status;
     }
 
+    public void greet() {System.out.println("Hej jag heter " + this.namn); }
+
+
+    public String toString() {
+        return "Name: " + this.namn + "Författare : " + this.författare + "År: " + this.år + "Upplaga: " + this.upplaga
+                + "Status: " + this.status;
+    }
+
 
 
 }
